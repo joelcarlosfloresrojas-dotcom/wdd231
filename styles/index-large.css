@@ -1,0 +1,32 @@
+/* --- Responsive Design (Escritorio / Pantallas Grandes) --- */
+@media (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    }
+    
+    .container {
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    .button-container {
+        flex-wrap: nowrap;
+    }
+    
+    button {
+        flex: none; 
+    }
+
+    button[id="menu-toggle"] {
+        display: none; 
+    }
+    .test{
+        display:flex;
+        flex-direction: row;
+    }
+
+    nav{
+        display: block;
+    }
+}
