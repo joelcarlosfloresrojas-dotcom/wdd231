@@ -93,13 +93,15 @@ const counter=document.getElementById('total-credits');
 function calculateTotalCredits() {
     counter.textContent = '';
    
-    let totalCredits=0;
+    let totalCredits= courses.reduce((accumulate,value)=>{
+        return accumulate + value.credits;
+    },0);
     courses.forEach((helper) => {
         
         const div2=document.createElement('div');
-    
+        
         div2.textContent=helper.subject + " " + helper.number;
-        totalCredits += helper.credits;
+        
         if(helper.completed==true){
             div2.classList.toggle('right');
             
@@ -119,11 +121,13 @@ window.addEventListener('DOMContentLoaded', () => {
 allButton.addEventListener('click', () => {
     div1.innerHTML = '';
     counter.textContent = '';
-   let Allt=0
+   let Allt=courses.reduce((accumulate,value)=>{
+        return accumulate + value.credits;
+    },0);
    courses.forEach((helper) => {
     const div2=document.createElement('div');
     div2.textContent=helper.subject + " " + helper.number;
-    Allt += helper.credits;
+    
     if(helper.completed==true){
         div2.classList.toggle('right');
     } else {
@@ -137,12 +141,14 @@ allButton.addEventListener('click', () => {
 WDDButton.addEventListener('click', () => {
     div1.innerHTML = '';
    counter.textContent = '';
-   let WDDt=0
+   let WDDt = courses
+        .filter((helper) => helper.subject === 'WDD')
+        .reduce((acc, curr) => acc + curr.credits, 0);
     courses.filter((helper) => helper.subject === 'WDD').forEach((helper) => {
     const div2=document.createElement('div');
     
     div2.textContent=helper.subject + " " + helper.number;
-    WDDt += helper.credits;
+
     if(helper.completed==true){
         div2.classList.toggle('right');
 
@@ -158,11 +164,11 @@ WDDButton.addEventListener('click', () => {
 CSEButton.addEventListener('click', () => {
     div1.innerHTML = '';
     counter.textContent = '';
-    let CSEt=0
+    let CSEt = courses .filter((helper) => helper.subject === 'CSE').reduce((acc, curr) => acc + curr.credits, 0);
     courses.filter((helper) => helper.subject === 'CSE').forEach((helper) => {
     const div2=document.createElement('div');
     div2.textContent=helper.subject + " " + helper.number;
-    CSEt += helper.credits;
+
     if(helper.completed==true){
         div2.classList.toggle('right');
     } else {
