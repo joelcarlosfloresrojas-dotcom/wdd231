@@ -3,7 +3,7 @@
     --primary-hover: #4a2525;
     --bg-color: #f4f5f7;
     --card-bg: #ffffff;
-    --text-dark: #333333;
+    --text-dark: #5b5151;
     --text-light: #666666;
     --success: #2e7d32;
     --pending: #c62828;
@@ -227,4 +227,9 @@ footer {
 
 h2{
   text-align: center;
+}
+
+.test li a.active {
+    background-color: var(--text-dark); 
+    color: var(--card-bg);
 }
