@@ -1,5 +1,5 @@
 /* --- Responsive Design (Escritorio / Pantallas Grandes) --- */
-@media (min-width: 768px) {
+@media (min-width: 600px) {
     header {
         flex-direction: row;
         justify-content: space-between;

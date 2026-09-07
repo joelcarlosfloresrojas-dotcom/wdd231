@@ -76,12 +76,10 @@ nav {
     padding: 15px;
     background-color: var(--primary-color);
     border-radius: var(--border-radius);
-    display:none;
+    display:block;
 }
 
-.navigation{
-    display:block
-}
+
 
 .test li{
    display: flex ;
@@ -130,7 +128,7 @@ nav {
 .box1 img {
     width: 100%;
     max-width: 250px;
-    height: 250px;
+    height: auto;
     object-fit: cover;
     border-radius: var(--border-radius);
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -232,4 +230,10 @@ h2{
 .test li a.active {
     background-color: var(--text-dark); 
     color: var(--card-bg);
+}
+
+@media(max-width:600px){
+    .navigation{
+    display:none
+}
 }
