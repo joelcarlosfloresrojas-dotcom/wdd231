@@ -72,6 +72,12 @@ li,a{
 
 }
 
+.boton{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+
 footer{
     background-color:rgb(216, 216, 195);
     padding: 10px;
