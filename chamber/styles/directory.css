@@ -18,6 +18,7 @@ header, main, footer {
 
 main{
     background-color: #c3e2e3;
+    padding: 20px;
 }
 
 .lister #imagen {
@@ -97,9 +98,7 @@ nav {
     color: #0056b3;
 }
 
-main {
-    padding: 20px;
-}
+
 
 main h1 {
     text-align: center;
