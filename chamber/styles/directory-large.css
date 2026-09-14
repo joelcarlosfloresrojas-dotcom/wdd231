@@ -72,8 +72,15 @@
         min-width: 220px;
     }
     
-    .contact-info a {
+    .contact-info li, 
+    footer ul li {
+        padding: 4px 0;
+    }
+
+    .contact-info a,
+    footer a {
         padding: 0;
+        display: inline;
     }
 
     .three {
@@ -81,5 +88,9 @@
         justify-content: space-between;
         align-items: flex-start;
         text-align: left;
+    }
+    
+    .socials {
+        margin: 0;
     }
 }
