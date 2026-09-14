@@ -10,7 +10,7 @@ button.addEventListener("click", () => {
     display.classList.toggle("display");
 });
 
-const url = "https://joelcarlosfloresrojas-dotcom.github.io/wdd231/data/member.json";
+const url = "https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/data/member.json";
 const cards = document.getElementById("lets-cook");
 const gridbttn = document.getElementById("grid");
 const listbttn = document.getElementById("list");

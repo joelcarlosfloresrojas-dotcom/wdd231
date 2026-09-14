@@ -6,8 +6,8 @@
     }
 
     .joel {
-         display: contents;
-        }
+        display: contents;
+    }
     
     .flexer {
         order: 1;
@@ -22,7 +22,7 @@
     .flexer2 {
         display: flex;
         flex-direction: row;
-        gap: 25px;
+        gap: 10px;
         align-items: center;
     }
 
@@ -34,7 +34,6 @@
 
     #menu-toggle { display: none; }
 
-    
     .grider {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -43,11 +42,11 @@
 
     .lister .member-card {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: space-between;
         text-align: left;
-        padding: 10px 20px;
+        padding: 15px 30px;
     }
     
     .lister .looking {
@@ -56,24 +55,27 @@
     }
     
     .lister .looking2 {
-        flex: 2;
+        flex: 1.5;
         flex-direction: row;
         justify-content: flex-end;
-        gap: 30px;
+        align-items: center;
+        gap: 40px;
     }
     
     .lister #imagen {
         margin-bottom: 0;
+        margin-right: auto;
     }
     
     .lister .contact-info {
         text-align: left;
-        min-width: 200px;
+        min-width: 220px;
     }
 
     .three {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
+        text-align: left;
     }
 }
