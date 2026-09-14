@@ -1,0 +1,77 @@
+@media (min-width: 640px) {
+    header {
+        display: flex;
+        align-items: center;
+        padding: 15px 30px;
+    }
+
+    .joel { display: contents; }
+    
+    .flexer {
+        order: 1;
+        margin-right: auto;
+    }
+
+    nav {
+        order: 2;
+        margin: 0;
+    }
+
+    .flexer2 {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .flexer1 {
+        display: flex;
+        order: 3;
+        margin-left: 30px;
+    }
+
+    #menu-toggle { display: none; }
+
+    
+    .grider {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .lister .member-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        padding: 10px 20px;
+    }
+    
+    .lister .looking {
+        flex: 1;
+        margin-bottom: 0;
+    }
+    
+    .lister .looking2 {
+        flex: 2;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 30px;
+    }
+    
+    .lister #imagen {
+        margin-bottom: 0;
+    }
+    
+    .lister .contact-info {
+        text-align: left;
+        min-width: 200px;
+    }
+
+    .three {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

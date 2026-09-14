@@ -1,3 +1,4 @@
+/* Removed the universal border:1px solid black for a cleaner look */
 * {
     margin: 0;
     padding: 0;
@@ -5,80 +6,190 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header,main,footer{
-    max-width: 600px;
-    margin:auto;
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header, main, footer {
+    max-width: 840px;
+    margin: 0 auto;
     margin-top: 10px;
 }
+main{
+    background-color: rgb(146, 146, 132);
+    padding: 20px;
+    border-radius: 0.8rem;
+}
 
-.joel{
+header {
+    background-color: #d1d1b9; 
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.joel {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.flexer2 li{
-    text-align: center;
-    margin-top: 5px;
-}
-header{
-    background-color: rgb(187, 187, 168);
-    padding: 10px;
-}
-#menu-toggle{
-    gap:0px;
-}
-#menu-toggle::before{
-    content: '✖';
+.flexer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
-#menu-toggle.open::before{
-    content: '☰';
+.flexer1 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
 
-.flexer2{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-nav{
-    margin: 0 auto;
-}
-
-.display {
+#menu-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
     display: none;
-
 }
 
-.flexer1{
-    display: flex;
-    gap:5px;
-}
+#menu-toggle::before { content: '✖'; }
+#menu-toggle.open::before { content: '☰'; }
 
+nav { margin: 15px auto 0; }
 
-ul{
-    list-style: none;
-}
-li,a{
-    text-decoration: none;
-}
-
-.three{
+.flexer2 {
     display: flex;
     flex-direction: column;
-    gap:20px;
-    text-align: start;
-    
-
-}
-
-.boton{
-    display: flex;
     justify-content: center;
-    gap:10px;
+    gap: 10px;
 }
 
-footer{
-    background-color:rgb(216, 216, 195);
-    padding: 10px;
+.flexer2 li { text-align: center; }
+
+.flexer2 a {
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.flexer2 a:hover, .active-link {
+    color: #0056b3;
+}
+
+ul { list-style: none; }
+li, a { text-decoration: none; }
+
+/* Main & Buttons */
+main h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.boton button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton button:hover { background-color: #ccc; }
+.boton button.active-view {
+    background-color: #333;
+    color: white;
+}
+
+
+.grider {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.lister {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.member-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border: 1px solid #eaeaea;
+    transition: transform 0.2s;
+}
+
+.member-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+#imagen {
+    max-width: 80px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.looking h2 { font-size: 1.2rem; margin-bottom: 5px; }
+.looking h3 { font-size: 0.9rem; color: #666; margin-bottom: 10px; }
+
+.looking2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info {
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
+
+.contact-info a { color: #0056b3; }
+.contact-info a:hover { text-decoration: underline; }
+
+/* Footer */
+footer {
+    background-color: #d1d1b9;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+}
+
+@media(max-width: 640px) {
+    #menu-toggle { display: block; }
+    .display { display: none; }
+    
+    .three {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .socials { justify-content: center; }
 }
