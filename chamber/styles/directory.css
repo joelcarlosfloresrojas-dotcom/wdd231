@@ -19,6 +19,7 @@ header, main, footer {
 main {
     background-color: #c3e2e3;
     padding: 20px;
+    min-height: 60vh;
 }
 
 .lister .imagen {
@@ -163,8 +164,8 @@ main h1 {
 }
 
 .imagen {
-    max-width: 90px;
-    height: auto;
+    width: 90px;
+    height: 90px;
     object-fit: contain;
     margin-bottom: 15px;
 }
