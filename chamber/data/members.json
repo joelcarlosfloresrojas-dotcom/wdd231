@@ -6,7 +6,7 @@
       "phone": "(555) 123-4567",
       "email": "info@technovasolutions.com",
       "URL": "https://www.technovasolutions.com",
-      "image": "https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/images/TechNova.jpg",
+      "image": "https://picsum.photos/seed/tech/300/200",
       "membership": 3,
       "additional": "Specializes in cloud computing and enterprise software."
     },
@@ -16,7 +16,7 @@
       "phone": "(555) 987-6543",
       "email": "contact@greenleaforganics.com",
       "URL": "https://www.greenleaforganics.com",
-      "image": "https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/images/GreenLeaf.jpg",
+      "image": "https://picsum.photos/seed/green/300/200",
       "membership": 1,
       "additional": "Locally sourced organic produce and sustainable goods."
     },
@@ -26,7 +26,7 @@
       "phone": "(555) 456-7890",
       "email": "hello@bluewavedynamics.com",
       "URL": "https://www.bluewavedynamics.com",
-      "image": "https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/images/BlueWave.jpg",
+      "image": "https://picsum.photos/seed/blue/300/200",
       "membership": 2,
       "additional": "Leading provider of maritime logistics and shipping."
     },
@@ -36,7 +36,7 @@
       "phone": "(555) 222-3333",
       "email": "support@apexfinancial.com",
       "URL": "https://www.apexfinancial.com",
-      "image": "https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/images/Apex.jpg",
+      "image": "https://picsum.photos/seed/apex/300/200",
       "membership": 3,
       "additional": "Wealth management and corporate advisory services."
     },
@@ -46,7 +46,7 @@
       "phone": "(555) 777-8888",
       "email": "design@summitdesign.com",
       "URL": "https://www.summitdesign.com",
-      "image": "https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/images/Summit.jpg",
+      "image": "https://picsum.photos/seed/summit/300/200",
       "membership": 2,
       "additional": "Award-winning graphic design and branding agency."
     },
@@ -56,7 +56,7 @@
       "phone": "(555) 666-5555",
       "email": "dispatch@orbitlogistics.com",
       "URL": "https://www.orbitlogistics.com",
-      "image": "https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/images/orbit.jpg",
+      "image": "https://picsum.photos/seed/orbit/300/200",
       "membership": 1,
       "additional": "Nationwide freight and next-day delivery services."
     },
@@ -66,7 +66,7 @@
       "phone": "(555) 111-9999",
       "email": "hello@zenithmarketing.com",
       "URL": "https://www.zenithmarketing.com",
-      "image": "https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/images/Zenith.jpg",
+      "image": "https://picsum.photos/seed/zenith/300/200",
       "membership": 3,
       "additional": "Data-driven digital marketing and SEO optimization."
     }
