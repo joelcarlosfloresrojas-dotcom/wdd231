@@ -20,6 +20,10 @@ main{
     background-color: #c3e2e3;
 }
 
+.lister #imagen {
+    display: none; 
+}
+
 header {
     background-color: #ffffff; 
     padding: 15px 20px;
