@@ -1,4 +1,3 @@
-
 document.getElementById("currentyear").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
 
@@ -58,7 +57,7 @@ const displayInfo = (members) => {
                 <h3>${member.additional}</h3>
             </div>
             <div class="looking2">
-                <img src="${member.image}" alt="${member.name} logo" id="imagen" loading="lazy">
+                <img src="${member.image}" alt="${member.name} logo" class="imagen" width="90" height="90" loading="lazy">
                 <ul class="contact-info">
                     <li><strong>EMAIL:</strong> <a href="mailto:${member.email}">${member.email}</a></li>
                     <li><strong>PHONE:</strong> <a href="tel:${member.phone}">${member.phone}</a></li>

@@ -16,12 +16,12 @@ header, main, footer {
     border-radius: 8px;
 }
 
-main{
+main {
     background-color: #c3e2e3;
     padding: 20px;
 }
 
-.lister #imagen {
+.lister .imagen {
     display: none; 
 }
 
@@ -98,8 +98,6 @@ nav {
     color: #0056b3;
 }
 
-
-
 main h1 {
     text-align: center;
     margin-bottom: 25px;
@@ -161,7 +159,7 @@ main h1 {
     box-shadow: 0 8px 15px rgba(0,0,0,0.1);
 }
 
-#imagen {
+.imagen {
     max-width: 90px;
     height: auto;
     object-fit: contain;
@@ -225,15 +223,18 @@ footer a:hover {
     gap: 15px;
 }
 
+.socials img {
+    filter: brightness(0) invert(1);
+    transition: opacity 0.2s;
+}
 
 .socials img:hover {
     opacity: 0.7;
 }
 
-ul{
+ul {
     list-style: none;
 }
-
 
 @media(max-width: 640px) {
     #menu-toggle { display: block; }
