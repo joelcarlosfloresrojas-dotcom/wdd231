@@ -5,7 +5,9 @@
         padding: 15px 30px;
     }
 
-    .joel { display: contents; }
+    .joel {
+         display: contents;
+        }
     
     .flexer {
         order: 1;
