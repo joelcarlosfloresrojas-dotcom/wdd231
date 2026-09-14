@@ -268,8 +268,8 @@ ul {
     .three {
         display: flex;
         flex-direction: column;
-        gap: 25px;
-        text-align: center;
+        gap: 15px;
+        
     }
     
     .socials { justify-content: center; }
