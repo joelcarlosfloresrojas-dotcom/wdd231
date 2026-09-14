@@ -71,6 +71,10 @@
         text-align: left;
         min-width: 220px;
     }
+    
+    .contact-info a {
+        padding: 0;
+    }
 
     .three {
         display: flex;

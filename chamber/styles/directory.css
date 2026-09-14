@@ -7,7 +7,7 @@
 
 body {
     background-color: #f4f7f6;
-    color: #333333;
+    color: #222222;
 }
 
 header, main, footer {
@@ -60,10 +60,12 @@ header {
     color: #003366;
     cursor: pointer;
     display: none;
+    min-height: 48px;
+    min-width: 48px;
 }
 
 #menu-toggle::before { content: '✖'; }
-#menu-toggle.open::before { content: '☰'; }
+#menu-toggle[aria-expanded="false"]::before { content: '☰'; }
 
 nav { 
     margin: 15px auto 0; 
@@ -83,8 +85,8 @@ nav {
 
 .flexer2 a {
     display: block;
-    padding: 12px 15px;
-    color: #444444;
+    padding: 16px 15px;
+    color: #333333;
     font-weight: 600;
     text-decoration: none;
     border-radius: 6px;
@@ -95,7 +97,7 @@ nav {
 .flexer2 a:active, 
 .active-link {
     background-color: #e6f0fa;
-    color: #0056b3;
+    color: #004499;
 }
 
 main h1 {
@@ -112,10 +114,11 @@ main h1 {
 }
 
 .boton button {
-    padding: 10px 20px;
+    padding: 12px 24px;
+    min-height: 48px;
     border: none;
-    background-color: #e2e8f0;
-    color: #4a5568;
+    background-color: #d8e0e8;
+    color: #2a3545;
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
@@ -123,7 +126,7 @@ main h1 {
 }
 
 .boton button:hover, .boton button:active { 
-    background-color: #cbd5e1; 
+    background-color: #c2ccd6; 
 }
 
 .boton button.active-view {
@@ -174,7 +177,7 @@ main h1 {
 
 .looking h3 { 
     font-size: 0.95rem; 
-    color: #666666; 
+    color: #444444; 
     margin-bottom: 15px; 
     font-weight: 500;
 }
@@ -193,8 +196,10 @@ main h1 {
 }
 
 .contact-info a {
-    color: #0056b3;
+    color: #004499;
     text-decoration: none;
+    padding: 8px 0;
+    display: inline-block;
 }
 
 .contact-info a:hover, .contact-info a:active { 
@@ -209,7 +214,7 @@ footer {
 }
 
 footer a {
-    color: #99ccff;
+    color: #b3d9ff;
     text-decoration: none;
 }
 
@@ -220,7 +225,15 @@ footer a:hover {
 
 .socials {
     display: flex;
-    gap: 15px;
+    gap: 10px;
+}
+
+.socials a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 48px;
+    min-height: 48px;
 }
 
 .socials img {

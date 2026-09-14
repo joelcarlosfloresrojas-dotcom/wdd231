@@ -5,7 +5,8 @@ const button = document.getElementById("menu-toggle");
 const display = document.querySelector("nav");
 
 button.addEventListener("click", () => {
-    button.classList.toggle("open");
+    const isExpanded = button.getAttribute("aria-expanded") === "true";
+    button.setAttribute("aria-expanded", !isExpanded);
     display.classList.toggle("display");
 });
 
@@ -48,16 +49,19 @@ async function GetInfo() {
 const displayInfo = (members) => {
     cards.innerHTML = ""; 
     
-    members.forEach((member) => {
+    members.forEach((member, index) => {
         let subcard = document.createElement("div");
         subcard.classList.add("member-card");
+        
+        let lazyLoad = index < 2 ? '' : 'loading="lazy"';
+        
         subcard.innerHTML = `
             <div class="looking">
                 <h2>${member.name}</h2>
                 <h3>${member.additional}</h3>
             </div>
             <div class="looking2">
-                <img src="${member.image}" alt="${member.name} logo" class="imagen" width="90" height="90" loading="lazy">
+                <img src="${member.image}" alt="${member.name} logo" class="imagen" width="90" height="90" ${lazyLoad} decoding="async">
                 <ul class="contact-info">
                     <li><strong>EMAIL:</strong> <a href="mailto:${member.email}">${member.email}</a></li>
                     <li><strong>PHONE:</strong> <a href="tel:${member.phone}">${member.phone}</a></li>
