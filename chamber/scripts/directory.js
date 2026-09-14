@@ -54,6 +54,7 @@ const displayInfo = (members) => {
         subcard.classList.add("member-card");
         
         let lazyLoad = index < 2 ? '' : 'loading="lazy"';
+        let priority = index === 0 ? 'fetchpriority="high"' : '';
         
         subcard.innerHTML = `
             <div class="looking">
@@ -61,7 +62,7 @@ const displayInfo = (members) => {
                 <h3>${member.additional}</h3>
             </div>
             <div class="looking2">
-                <img src="${member.image}" alt="${member.name} logo" class="imagen" width="90" height="90" ${lazyLoad} decoding="async">
+                <img src="${member.image}" alt="${member.name} logo" class="imagen" width="90" height="90" ${lazyLoad} ${priority} decoding="async">
                 <ul class="contact-info">
                     <li><strong>EMAIL:</strong> <a href="mailto:${member.email}">${member.email}</a></li>
                     <li><strong>PHONE:</strong> <a href="tel:${member.phone}">${member.phone}</a></li>
