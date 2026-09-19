@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - Chamber of Commerce</title>
+    <meta name="author" content="Joel Flores">
+    <meta name="description" content="description" content="This is the home page, where you can find our latest news, core services, and an overview of what we offer.">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Chamber Directory Page">
+    <meta property="og:description" content="Here you will find the latest news, resources, and an overview of our vibrant business community">
+    <meta property="og:image" content="https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/images/lima_chamber.jpg">
+    <meta property="og:url" content="https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/directory.html">
+    <meta name="theme-color" content="#003366">
+    
+    <link rel="preload" href="https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/data/members.json" as="fetch" crossorigin>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directory-large.css" media="screen and (min-width: 640px)">
+    <script src="scripts/directory.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="joel">
+            <div id="flexer" class="flexer">
+                <img src="images/globe_americas.svg" alt="Logo" width="40" height="40" fetchpriority="high">
+                <span id="help">Lima Chamber of Commerce</span>
+            </div>    
+            <div id="flexer1" class="flexer1">
+                <img src="images/circle-half.svg" alt="Dark mode toggle" width="24" height="24"> 
+                <button id="menu-toggle" aria-label="Toggle Menu" aria-expanded="false"></button>
+            </div>
+        </div>
+        
+        <nav class="display">
+            <ul class="flexer2">
+                <li><a href="#">Home</a></li>
+                <li><a href="directory.html" class="active-link" aria-current="page">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Directory</h1>
+        <div class="boton">
+            <button id="grid" class="active-view">Grid</button>
+            <button id="list">List</button>
+        </div>
+        <div id="lets-cook" class="grider">
+         
+        </div>
+    </main>
+    
+    <footer>
+        <div class="three">
+            <div>
+                <strong>Lima Chamber of Commerce</strong>
+                <ul>
+                    <li>Av. Arequipa 1234, San Isidro</li>
+                    <li>Lima, Perú 15046</li>
+                    <li><a href="mailto:contacto@joelflores.dev">contacto@joelflores.dev</a></li>
+                    <li><a href="tel:+51987654321">(51) 987-654-321</a></li>
+                </ul>
+            </div>
+            <div class="socials">
+                <a href="#" aria-label="LinkedIn"><img src="../images/linkedin.svg" alt="" width="30" height="30"></a>
+                <a href="#" aria-label="YouTube"><img src="../images/youtube.svg" alt="" width="30" height="30"></a>
+                <a href="#" aria-label="X (Twitter)"><img src="images/twitter-x.svg" alt="" width="30" height="30"></a>
+            </div>
+            <div>
+                <ul>
+                    <li>WDD231 Class Project</li>
+                    <li>Joel Flores</li>
+                </ul>
+                <p>&copy; <span id="currentyear"></span> Lima Chamber of Commerce</p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
