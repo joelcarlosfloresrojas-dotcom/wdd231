@@ -7,7 +7,7 @@
       "email": "info@technovasolutions.com",
       "URL": "https://www.technovasolutions.com",
       "image": "https://picsum.photos/seed/tech/300/200",
-      "membership": 3,
+      "membership": 1,
       "additional": "Specializes in cloud computing and enterprise software."
     },
     {
@@ -27,7 +27,7 @@
       "email": "hello@bluewavedynamics.com",
       "URL": "https://www.bluewavedynamics.com",
       "image": "https://picsum.photos/seed/blue/300/200",
-      "membership": 2,
+      "membership": 1,
       "additional": "Leading provider of maritime logistics and shipping."
     },
     {

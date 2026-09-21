@@ -12,13 +12,15 @@
     <meta property="og:image" content="https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/images/lima_chamber.jpg">
     <meta property="og:url" content="https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/index.html">
     <meta name="theme-color" content="#003366">
-    
-    <link rel="preload" href="https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/data/members.json" as="fetch" crossorigin>
-    
+    <link rel="stylesheet" href="styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  
+     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directory-large.css" media="screen and (min-width: 640px)">
+    <script src="../chamber/scripts/index.js" defer></script>
   
    
 </head>
@@ -37,8 +39,8 @@
         
         <nav class="display">
             <ul class="flexer2">
-                <li><a href="index.html" >Home</a></li>
-                <li><a href="directory.html"  >Directory</a></li>
+                <li><a href="index.html" class="active-link">Home</a></li>
+                <li><a href="directory.html" class="active-link" >Directory</a></li>
                 <li><a href="">Join</a></li>
                 <li><a href="#">Discover</a></li>
             </ul>
@@ -46,7 +48,54 @@
     </header>
 
     <main>
-     
+    <div class="relative">
+     <picture>
+    <source media="(min-width: 510px)" srcset="../chamber/images/hero_image.jpg">
+    <img id="hero" src="../chamber/images/hero_image_mobile.webp"  alt="Home Page image">
+    </picture>
+     <div id="hola" class="flexH">
+        <h1>Lima Chamber of Commerce</h1>
+        <h2>Your partner in business success</h2>
+     </div>
+     <a href="join.html" class="button">Join Us!</a>
+    </div>
+    <div class="doing">
+    <section id="weather" class="weather">
+        
+    </section>
+    <section id="event" class="event">
+        <div class="carder">
+            <strong id="center">Q4 Economic Outlook & Business Breakfast</strong><br><br>
+            <span><strong>Date:</strong> Thursday, October 8, 2026</span><br><br>
+            <span><strong>Location:</strong> San Isidro Financial Center</span><br><br>
+            <strong>Description:</strong><p>Join top economists and local business leaders for an in-depth analysis of Peru's economic trends as we approach the end of the year. Learn about new trade regulations and market forecasts to help you plan your 2027 budget.</p>
+        </div>
+
+        <div class="carder">
+            <strong id="center">Digital Transformation Workshop for SMEs</strong><br><br>
+            <span><strong>Date:</strong> Tuesday, October 13, 2026</span><br><br>
+            <span><strong>Location:</strong> Lima Chamber of Commerce Main Auditorium (or Virtual)</span><br><br>
+            <strong>Description:</strong><p>A hands-on workshop designed for small and medium enterprises. Learn how to integrate e-commerce tools, automate your customer service, and leverage AI to scale your local retail business.</p>
+        </div>
+
+        <div class="carder">
+            <strong id="center">Lima B2B Networking Mixer</strong><br><br>
+            <span><strong>Date:</strong> Friday, October 23, 2026</span><br><br>
+            <span><strong>Location:</strong> Miraflores Corporate Hub</span><br><br>
+            <strong>Description:</strong><p>Expand your professional network at our monthly mixer. Meet fellow entrepreneurs, pitch your services, and find potential partners or investors in a relaxed, after-hours environment. Drinks and appetizers provided.</p>
+        </div>
+
+        <div class="carder">
+            <strong id="center">2026 Lima Trade & Export Expo</strong><br><br>
+            <span><strong>Date:</strong> November 5-6, 2026</span><br><br>
+            <span><strong>Location:</strong> Jockey Exhibition Center</span><br><br>
+            <strong>Description:</strong><p>The premier event for local manufacturers and agricultural producers looking to export. Connect with international buyers, learn about export logistics, and showcase your products on a global stage.</p>
+        </div>
+    </section>
+    </div>
+    <section id="spotlight" class="spotlight">
+            
+    </section>
     </main>
     
     <footer>
