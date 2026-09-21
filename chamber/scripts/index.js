@@ -54,7 +54,7 @@ const DisplayWeather = (weather) =>{
     });
     
 }
-
+let level = "";
 weather();
 
 async function spotlight() {
@@ -74,13 +74,21 @@ async function spotlight() {
     }
 }
 
+
 const DisplaySpotlight= (data) =>{
     spotlight3.innerHTML = ""; 
     const members1 = data.filter((data1)=> data1.membership===2 || data1.membership===3 );
-    members1.forEach((member, index) => {
+    const mixed = members1.sort(() => Math.random() - 0.5);
+    const mixed1 = mixed.slice(0, 3);
+    
+    mixed1.forEach((member, index) => {
         let subcard = document.createElement("div");
         subcard.classList.add("member-card");
-        
+        if(member.membership==2){
+             level="Silver";
+        }else{
+            level="Gold";
+        }
         let lazyLoad = index < 2 ? '' : 'loading="lazy"';
         let priority = index === 0 ? 'fetchpriority="high"' : '';
         
@@ -95,6 +103,7 @@ const DisplaySpotlight= (data) =>{
                     <li><strong>EMAIL:</strong> <a href="mailto:${member.email}">${member.email}</a></li>
                     <li><strong>PHONE:</strong> <a href="tel:${member.phone}">${member.phone}</a></li>
                     <li><strong>URL:</strong> <a href="${member.URL}" target="_blank">${member.URL}</a></li>
+                    <li><strong>MEMBERSHIP LEVEL:</strong> <a href="${level}" target="_blank">${level}</a></li>
                 </ul>    
             </div>
         `;

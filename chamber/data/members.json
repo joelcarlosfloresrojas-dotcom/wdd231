@@ -17,7 +17,7 @@
       "email": "contact@greenleaforganics.com",
       "URL": "https://www.greenleaforganics.com",
       "image": "https://picsum.photos/seed/green/300/200",
-      "membership": 1,
+      "membership": 2,
       "additional": "Locally sourced organic produce and sustainable goods."
     },
     {
@@ -57,7 +57,7 @@
       "email": "dispatch@orbitlogistics.com",
       "URL": "https://www.orbitlogistics.com",
       "image": "https://picsum.photos/seed/orbit/300/200",
-      "membership": 1,
+      "membership": 2,
       "additional": "Nationwide freight and next-day delivery services."
     },
     {

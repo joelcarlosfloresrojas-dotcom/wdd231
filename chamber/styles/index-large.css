@@ -1,0 +1,35 @@
+@media(min-width:670px){
+    .weather{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        align-items: center;
+        grid-column: 1/2;
+
+    }
+    .doing{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap:10px;
+    }
+
+    .event{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 0px;
+        gap:10px;
+    }
+
+    .h4{
+        grid-column: 2/6;
+        
+
+    }
+
+    .spotlight{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:15px;
+        margin-top: 30px;
+    }
+}
