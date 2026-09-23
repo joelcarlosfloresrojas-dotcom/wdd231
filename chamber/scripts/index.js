@@ -107,7 +107,7 @@ const DisplaySpotlight= (data) =>{
                     <li><strong>EMAIL:</strong> <a href="mailto:${member.email}">${member.email}</a></li>
                     <li><strong>PHONE:</strong> <a href="tel:${member.phone}">${member.phone}</a></li>
                     <li><strong>URL:</strong> <a href="${member.URL}" target="_blank">${member.URL}</a></li>
-                    <li><strong>MEMBERSHIP LEVEL:</strong> <a href="${level}" target="_blank">${level}</a></li>
+                    <li><strong>MEMBERSHIP LEVEL:</strong> <a>${level}</a></li>
                 </ul>    
             </div>
         `;
