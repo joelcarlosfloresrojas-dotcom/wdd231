@@ -81,7 +81,7 @@ h4{
 .weather-card{
     display: flex;
     flex-direction: column;
-    background-color: rgb(107, 137, 219);
+    background-color: rgb(159, 180, 239);
     margin-top: 10px;
     border-radius: 10px;
     padding: 12px;
