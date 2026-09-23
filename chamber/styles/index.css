@@ -1,3 +1,4 @@
+
 .relative{
     width: 100%;
     position:relative;
@@ -22,6 +23,9 @@
   
 }
 
+h4{
+    font-size: 1.5rem;
+}
 .flexH h1{
   
   color: rgb(21, 225, 232);
@@ -45,24 +49,55 @@
     text-decoration: none;
     background-color: blue;
     border: 1px solid black;
-    color: white;
-    padding: 8px;
-    text-align: center;
-    border-radius: 15px;
+    padding: 4px;
+    text-align: center; 
     bottom: 30px;
-    right: 10%;
+    right: 15%;
     left: 65%;
+    display: inline-block;
+    padding: 12px 28px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #2563eb; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2);
+    transition: all 0.2s ease-in-out;
+    width: auto;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+
+.button:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 12px -1px rgba(37, 99, 235, 0.3), 0 4px 6px -2px rgba(37, 99, 235, 0.15);
+}
+
+.button:active {
+  transform: translateY(0);
+  box-shadow: none;
 }
 .weather-card{
     display: flex;
     flex-direction: column;
-    background-color: beige;
+    background-color: rgb(107, 137, 219);
     margin-top: 10px;
     border-radius: 10px;
     padding: 12px;
     padding-right: 40px;
     padding-left: 40px;
     align-items: center;
+    width: 100%;
+    border: 1px solid #eaeaea;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.weather-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
 }
 
 .doing{
@@ -78,15 +113,28 @@
 
 
 .carder{
-    border-radius: 10px;
-    background-color: rgb(16, 185, 185);
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border: 1px solid #eaeaea;
+    transition: transform 0.2s, box-shadow 0.2s;
     margin-top: 10px;
     padding: 20px;
 }
 
+.carder:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+    
+
 #center{
     display: block;
     text-align: center;
+    font-size: 1.3rem; 
+    color: #003366;
 }
 
 .h3 h3{
@@ -109,6 +157,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
+    
+}
+
+.member-card{
+    padding: 10px !important;
 }
 
 @media (max-width:509px) {
@@ -128,6 +181,28 @@
     object-fit: cover;
     
 }
+}
+@media(max-width:770px){
+    .spotlight{
+    display: flex !important;
+    flex-direction: column !important;
+    gap:20px !important;
+    margin-top: 15px !important;
+    padding-right:40px;
+    padding-left:40px;
+}
 
+}
 
+@media(max-width:600px){
+    .weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    }
+    .weather-card{
+        padding-right:60px;
+        padding-left:60px;
+    }
 }

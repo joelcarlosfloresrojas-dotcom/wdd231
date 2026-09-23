@@ -2,11 +2,15 @@ const url='https://api.openweathermap.org/data/2.5/forecast?lat=-12.037189651090
 const sectionw=document.getElementById('weather');
 const url2="https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/data/members.json";
 const spotlight3 =document.getElementById('spotlight');
-
+const selector=document.getElementById('index');
 
 document.getElementById("currentyear").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
 
+document.addEventListener("DOMContentLoaded", () => {
+    selector.style.background = "#e6f0fa";
+    selector.style.color = "#004499";
+});
 const button = document.getElementById("menu-toggle");
 const display = document.querySelector("nav");
 
@@ -49,7 +53,7 @@ const DisplayWeather = (weather) =>{
     <img src="${iconUrl}" alt="weather icon" width="40" height="40">
     <p>${description}</p>
     <p>${temp}°F</p>
-    <p>Humidity:${weather1.main.humidity}°%</p>`;
+    <p>Humidity: ${weather1.main.humidity}%</p>`;
     sectionw.appendChild(div);
     });
     
