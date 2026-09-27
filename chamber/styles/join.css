@@ -82,7 +82,7 @@ h2{
     color: #003366;
 }
 #former:hover {
-  background-color: #1d4ed8; 
+  background-color: #551297; 
   transform: translateY(-2px); 
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
@@ -96,7 +96,7 @@ h2{
 
 #former{
     width: 40%;
-    background-color: #2563eb; 
+    background-color: #591a8f; 
   color: #ffffff;
   font-family: system-ui;
   font-size: 1rem;
