@@ -24,9 +24,6 @@ fieldset{
     border:1px solid black;
 }
 
-#former{
-    
-}
 
 .loadmore{
     display: flex;
@@ -48,7 +45,6 @@ fieldset{
     align-items: center;
     border-radius: 10px;
     background-color: #ffffff;
-    border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     border: 1px solid #eaeaea;
