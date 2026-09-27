@@ -1,0 +1,11 @@
+@media(min-width:620px){
+    .media{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:5px
+    }
+
+    #former{
+    width: 60%;
+}
+}

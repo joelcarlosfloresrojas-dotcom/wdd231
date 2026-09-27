@@ -1,0 +1,23 @@
+
+#thank{
+    margin-top: 80px !important;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 0 auto;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+main h2{
+    color: rgb(7, 7, 0);
+}
+
+#h22{
+    font-size: 1.5rem;
+    color: rgb(4, 94, 133);    
+
+}
