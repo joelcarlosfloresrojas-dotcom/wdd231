@@ -65,7 +65,7 @@
             </div>
             <div class="label">
             <label for="title">Organizational title</label>
-            <input name="title" id="title"  type="text" title="organizational" autocomplete="organization-title">
+            <input name="title" id="title"  type="text" title="organizational" autocomplete="organization-title" pattern="/^[A-Za-z\-\s]{7,}$/" required>
             <p id="error"></p>
             </div>
             <div class="label">
@@ -98,7 +98,7 @@
             <div class="column">
             <div class="label">
             <label for="business">Business's name*</label>
-            <input name="business" id="business" type="text" title="business" autocomplete="organization" required>
+            <input name="business" id="business" type="text" title="business" autocomplete="organization"  required>
             </div>
 
             <div class="label">

@@ -4,7 +4,6 @@ const selector=document.getElementById('join');
 const details = document.getElementById('details');
 const inputO = document.querySelector('[name="title"]');
 const error = document.getElementById('error');
-const titleRegex = /^[A-Za-z\-\s]{7,}$/;
 const form = document.getElementById("Form");
 const NP =document.getElementById('NP');
 const Bron = document.getElementById('Bron');
@@ -25,19 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
     selector.style.color = "#004499";
 });
 
-function sure(hello){
-    error.innerHTML="";
-    const tester = titleRegex.test(inputO.value)
-    if(tester==false){
-        error.textContent="Title must be at least 7 characters (letters, spaces, hyphens only).";
-        hello.preventDefault();
-    }
-    else{
-        const loadTime = new Date().toISOString();   
-        document.getElementById('timestamp').value = loadTime;
-    }
-
-}
 const loadTime = new Date().toISOString();   
 document.getElementById('timestamp').value = loadTime;
 form.addEventListener("submit",function(event){
