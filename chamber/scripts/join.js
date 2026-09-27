@@ -26,9 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const loadTime = new Date().toISOString();   
 document.getElementById('timestamp').value = loadTime;
-form.addEventListener("submit",function(event){
-        sure(event);
-});
     
 
 

@@ -65,7 +65,7 @@
             </div>
             <div class="label">
             <label for="title">Organizational title</label>
-            <input name="title" id="title"  type="text" title="organizational" autocomplete="organization-title" pattern="/^[A-Za-z\-\s]{7,}$/" required>
+            <input name="title" id="title"  type="text" title="organizational" autocomplete="organization-title" pattern="[A-Za-z\-\s]{7,}" required>
             <p id="error"></p>
             </div>
             <div class="label">
@@ -111,7 +111,7 @@
             
             <input type="hidden" id="timestamp" name="timestamp" value="">
             
-            <button id="former" type="submit">Get in Contact!</button>
+            <input id="former" type="submit" value="Get in Contact!">
         </form>
 
         
