@@ -1,6 +1,4 @@
-*{
-    margin: 0;
-}
+
 h1{
     text-align: left !important;
 }
@@ -27,11 +25,7 @@ fieldset{
 }
 
 #former{
-    display: block;
-    margin-top:40px;
-    width: 300px;
-    margin: 0 auto;
-    align-items: center;
+    
 }
 
 .loadmore{
@@ -59,6 +53,8 @@ fieldset{
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     border: 1px solid #eaeaea;
     transition: transform 0.2s, box-shadow 0.2s;
+    opacity: 0; 
+    animation: fadeSlideUp 1.8s ease-out forwards; 
 }
 
 .go p{
@@ -115,6 +111,10 @@ h2{
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   transition: all 0.2s ease;
+  display: block;
+margin-top:40px;
+margin: 0 auto;
+align-items: center;
 }
 
 input,textarea{
@@ -180,10 +180,7 @@ dialog button{
     }
 }
 
-.go {
-    opacity: 0; 
-    animation: fadeSlideUp 1.8s ease-out forwards; 
-}
+
 
 
 .go:nth-child(1) {
