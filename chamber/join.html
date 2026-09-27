@@ -16,7 +16,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/join.css">
     <link rel="stylesheet" href="styles/join-large.css">
-    <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/index-large.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/directory.css">
@@ -58,24 +57,24 @@
             <div class="column">
             <div class="label">
             <label for="name">First Name*</label>
-            <input name="name" type="text" title="First Name" autocomplete="given-name" required>
+            <input name="name" id="name" type="text" title="First Name" autocomplete="given-name" required>
             </div>
             <div class="label">
             <label for="lname">Last Name*</label>
-            <input name="lname" type="text" title="Last Name" autocomplete="family-name" required>
+            <input name="lname" id="lname" type="text" title="Last Name" autocomplete="family-name" required>
             </div>
             <div class="label">
             <label for="title">Organizational title</label>
-            <input name="title"  type="text" title="organizational" autocomplete="organization-title">
+            <input name="title" id="title"  type="text" title="organizational" autocomplete="organization-title">
             <p id="error"></p>
             </div>
             <div class="label">
             <label for="email">Email*</label>
-            <input name="email" type="email" title="email" placeholder="12345@gmail.com" autocomplete="email" required>
+            <input name="email" id="email" type="email" title="email" placeholder="12345@gmail.com" autocomplete="email" required>
             </div>
             <div class="label">
             <label for="phone">Phone Number*</label>
-            <input name="phone" type="tel" title="phone" autocomplete="tel" required>
+            <input name="phone" type="tel" id="phone" title="phone" autocomplete="tel" required>
             </div>
             </div>
             </fieldset>
@@ -151,9 +150,7 @@
             
 
         </dialog>
-        
     </main>
-    
     <footer>
         <div class="three">
             <div>
