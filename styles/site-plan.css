@@ -1,0 +1,29 @@
+*{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+img{
+    margin: 0px;
+}
+
+:root {
+  --color-dark-red: red; 
+  --color-green: #2E7D32;   
+  --color-cream: #F9F6F0;   
+  --color-dark-gray: #333333;
+}
+
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-dark-gray);
+}
+
+h1, h2, h3 {
+  color: var(--color-dark-red);
+}
+
+a {
+  color: var(--color-green);
+}
