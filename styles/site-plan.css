@@ -8,9 +8,9 @@ img{
 }
 
 :root {
-  --color-dark-red: red; 
+  --color-dark-red: rgb(255, 0, 0); 
   --color-green: #2E7D32;   
-  --color-cream: #F9F6F0;   
+  --color-cream: #d1c3a5cd;   
   --color-dark-gray: #333333;
 }
 
