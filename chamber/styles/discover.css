@@ -1,0 +1,115 @@
+
+.adgrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:10px
+    
+}
+
+#time{
+    text-align: center;
+}
+
+.member {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border: 1px solid #eaeaea;
+    margin: 8px;
+}
+
+
+
+.member{
+    display: grid;
+   grid-template-areas: 
+   "title"
+   "image"
+   "description"
+   "address"
+   "button";
+   align-items: center;
+   justify-items: center;
+   gap:10px;
+
+}
+
+.member h2{
+    grid-area: title;
+}
+
+.member img{
+    grid-area: image;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 10px;
+
+}
+
+.member img:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+
+}
+.member p{
+    grid-area: description;
+}
+
+.member h5{
+    grid-area: address;
+}
+
+button {
+    padding: 12px 24px;
+    min-height: 48px;
+    border: none;
+    background-color: #0d088f;
+    color: #f2f4f6;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    width:80%;
+    grid-area: button;
+}
+
+
+
+.button.active-view {
+    background-color: #003366;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,51,102,0.3);
+}
+
+dialog{
+    margin: auto;
+    width: 400px;
+    height: 250px;
+    padding: 20px ;
+   
+    border-radius: 10px;
+
+}
+
+dialog button{
+    width:70px;
+    padding:0 ;
+    align-self: flex-end;
+}
+
+dialog:modal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+
+@media(max-width:410px){
+.member img{
+ width: 100%;   
+}
+}
+
+

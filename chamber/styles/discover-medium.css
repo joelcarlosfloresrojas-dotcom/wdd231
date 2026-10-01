@@ -1,0 +1,14 @@
+@media(min-width: 640px) and (max-width: 1024px){
+    
+.member{
+   grid-template-areas: 
+   "title title"
+   "image description"
+   "image address"
+   "button button";
+   
+
+}
+
+
+}

@@ -1,0 +1,10 @@
+@media(min-width:1024px){
+    
+.adgrid{
+    
+   grid-template-columns: 1fr 1fr;
+
+}
+
+
+}
