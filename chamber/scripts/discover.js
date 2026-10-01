@@ -45,7 +45,7 @@ locations.forEach((location)=>{
     div.classList.add("member");
     div.innerHTML="";
     div.innerHTML=`<h2><strong>${location.name}</strong></h2>
-    <img src="${location.image_url}" alt="${location.name}">
+    <img src="${location.image_url}" alt="${location.name}" loading="lazy">
     <p>${location.description}</p>
     <h5>${location.address}</h5>
     <button id="${location.name}">Learn More</button>
