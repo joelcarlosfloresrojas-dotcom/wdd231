@@ -18,12 +18,7 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     border: 1px solid #eaeaea;
     margin: 8px;
-}
-
-
-
-.member{
-    display: grid;
+     display: grid;
    grid-template-areas: 
    "title"
    "image"
@@ -33,8 +28,11 @@
    align-items: center;
    justify-items: center;
    gap:10px;
-
 }
+
+
+
+
 
 .member h2{
     grid-area: title;
