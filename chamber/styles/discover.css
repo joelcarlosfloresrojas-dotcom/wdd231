@@ -1,9 +1,7 @@
-
 .adgrid{
     display: grid;
     grid-template-columns: 1fr;
     gap:10px
-    
 }
 
 #time{
@@ -18,21 +16,17 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     border: 1px solid #eaeaea;
     margin: 8px;
-     display: grid;
-   grid-template-areas: 
-   "title"
-   "image"
-   "description"
-   "address"
-   "button";
-   align-items: center;
-   justify-items: center;
-   gap:10px;
+    display: grid;
+    grid-template-areas: 
+    "title"
+    "image"
+    "description"
+    "address"
+    "button";
+    align-items: center;
+    justify-items: center;
+    gap:10px;
 }
-
-
-
-
 
 .member h2{
     grid-area: title;
@@ -42,16 +36,18 @@
     grid-area: image;
     transition: transform 0.2s, box-shadow 0.2s;
     border-radius: 10px;
-
 }
-
 
 .member p{
     grid-area: description;
 }
 
-.member h5{
+
+.member h3{
     grid-area: address;
+    font-size: 0.83em; 
+    font-weight: bold;
+    margin: 0;
 }
 
 button {
@@ -68,8 +64,6 @@ button {
     grid-area: button;
 }
 
-
-
 .button.active-view {
     background-color: #003366;
     color: #ffffff;
@@ -81,9 +75,7 @@ dialog{
     width: 400px;
     height: 250px;
     padding: 20px ;
-   
     border-radius: 10px;
-
 }
 
 dialog button{
@@ -100,10 +92,14 @@ dialog:modal {
 }
 
 
+a:focus-visible, button:focus-visible {
+    outline: 3px solid #003366;
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+
 @media(max-width:410px){
-.member img{
- width: 100%;   
+    .member img{
+        width: 100%;   
+    }
 }
-}
-
-
