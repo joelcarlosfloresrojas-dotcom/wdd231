@@ -49,5 +49,24 @@
     }
     /*index style*/
 
+    .grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    grid-template-areas: 
+    "img  img par par"
+    "q q q q"
+    ;
+    gap:10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin: 20px;
+    
+
+}
 
 }
