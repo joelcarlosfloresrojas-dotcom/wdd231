@@ -40,14 +40,22 @@
     .active{
     border-radius: 10px;
     }
-/*index style*/
+/*index style1*/
     
 
     #shoper{
         padding: 12px;
         font-size: 20px;
     }
-    /*index style*/
+    
+    .boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: stretch;
+    gap: 10px;
+    
+}
+
 
     .grid1{
     display: grid;
@@ -58,15 +66,12 @@
     "img  img par par"
     "q q q q"
     ;
-    gap:10px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    padding: 10px;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    margin: 20px;
+    gap:5px;
+  
+   
+   
     
 
 }
-
+/*index style2*/
 }
