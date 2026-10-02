@@ -1,0 +1,45 @@
+@media (min-width: 661px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    
+  }
+  nav {
+    display: block;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+
+   .nav-links{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .three{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 40px;
+    }
+
+    .active{
+    border-radius: 10px;
+    }
+/*index style*/
+    
+
+    #shoper{
+        padding: 12px;
+        font-size: 20px;
+    }
+    /*index style*/
+
+
+}
