@@ -10,6 +10,14 @@
     display: block;
   }
   
+  .nav-links li{
+    transition: transform 0.3s ease; 
+}
+
+.nav-links li:hover{
+  transform: translateY(-1.5px);
+}
+
   #menu-toggle {
     display: none;
   }

@@ -10,7 +10,7 @@ export async function getQuote(quote){
             quote.innerHTML=`
             <h3>Quote of the Day</h3>
             <p>${jeje3.quote}</p>
-            <p><strong>Author</strong>${jeje3.author}</p>
+            <p><strong>Author:</strong> ${jeje3.author}</p>
             `;
            
         }

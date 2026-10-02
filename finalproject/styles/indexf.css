@@ -12,16 +12,23 @@
 }
 
 main{
-    background-color: #F9F6F0;
+    background-color:  #36096e5e;
     margin-top: 20px;
-    margin-bottom: 20px;
-  
+    margin-bottom: 30px;
+    max-width: 840px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 10px;
 }
 
 
 header,footer{
     background-color: var(--primary-color);
 
+}
+
+footer{
+    margin-top: 10px;
 }
 
 .header{
@@ -144,7 +151,25 @@ nav{
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-/*index style*/
+/*index style1*/
+h4{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #36096e;
+}
+
+h5{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #36096e;
+
+}
+
+
 #redder1{
     color: red;
 }
@@ -158,6 +183,8 @@ nav{
 .relative{
     position: relative;
     align-items: center;
+   padding-top: 30px;
+   margin-top: 10px;
 }
 .relative p{
     position: absolute;
@@ -232,7 +259,78 @@ nav{
     background-color: #36096e;
 }
 
-/*index style*/
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    grid-template-areas: 
+    "img  img par par"
+    "q q q q"
+    ;
+    gap:10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin: 20px;
+    
+
+}
+
+.miracle{
+    grid-area: par;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+
+.grid1 img{
+    grid-area: img;
+    border-radius: 10px;
+}
+#quote{
+    grid-area: q;
+    border-radius: 10px;
+    transition: transform 0.3s ease; 
+}
+
+.miracle{
+    width: 70%;
+    background-color: #115c4d;
+    padding: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+
+}
+
+#quote:hover {
+    transform: translateY(-10px);
+}
+
+.quoter{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding: 30px;
+
+}
+
+.quoter p{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+/*index style2*/
 
 
 @media(max-width: 660px){

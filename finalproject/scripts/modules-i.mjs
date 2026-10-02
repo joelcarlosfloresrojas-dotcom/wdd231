@@ -1,5 +1,5 @@
 import {buttonClick,initHeader} from './header.mjs';
-import { getQuotequote } from './index.mjs';
+import { getQuote } from './index.mjs';
 document.getElementById("currentyear").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
 
