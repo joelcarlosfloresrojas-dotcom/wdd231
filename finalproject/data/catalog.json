@@ -1,0 +1,214 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Noise-Canceling Headphones",
+      "price": 199.99,
+      "category": "Audio",
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "name": "Ergonomic Mechanical Keyboard",
+      "price": 89.99,
+      "category": "Accessories",
+      "rating": 4.6
+    },
+    {
+      "id": 3,
+      "name": "Ultra-Wide Gaming Monitor 34\"",
+      "price": 449.00,
+      "category": "Displays",
+      "rating": 4.9
+    },
+    {
+      "id": 4,
+      "name": "RGB Wireless Gaming Mouse",
+      "price": 59.99,
+      "category": "Accessories",
+      "rating": 4.5
+    },
+    {
+      "id": 5,
+      "name": "Smart Fitness Watch",
+      "price": 129.50,
+      "category": "Wearables",
+      "rating": 4.3
+    },
+    {
+      "id": 6,
+      "name": "Portable 1TB NVMe SSD",
+      "price": 109.99,
+      "category": "Storage",
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "name": "4K Action Camera",
+      "price": 249.99,
+      "category": "Cameras",
+      "rating": 4.4
+    },
+    {
+      "id": 8,
+      "name": "Bluetooth Smart Speaker",
+      "price": 79.99,
+      "category": "Audio",
+      "rating": 4.2
+    },
+    {
+      "id": 9,
+      "name": "USB-C Multi-Port Hub",
+      "price": 39.99,
+      "category": "Accessories",
+      "rating": 4.6
+    },
+    {
+      "id": 10,
+      "name": "Desktop LED Monitor Light Bar",
+      "price": 45.00,
+      "category": "Accessories",
+      "rating": 4.8
+    },
+    {
+      "id": 11,
+      "name": "Wireless Charging Pad",
+      "price": 29.99,
+      "category": "Charging",
+      "rating": 4.1
+    },
+    {
+      "id": 12,
+      "name": "True Wireless Earbuds",
+      "price": 89.99,
+      "category": "Audio",
+      "rating": 4.5
+    },
+    {
+      "id": 13,
+      "name": "Wi-Fi 6 Smart Router",
+      "price": 159.99,
+      "category": "Networking",
+      "rating": 4.7
+    },
+    {
+      "id": 14,
+      "name": "Vertical Ergonomic Mouse",
+      "price": 49.99,
+      "category": "Accessories",
+      "rating": 4.4
+    },
+    {
+      "id": 15,
+      "name": "1080p Streaming Webcam",
+      "price": 69.99,
+      "category": "Cameras",
+      "rating": 4.3
+    },
+    {
+      "id": 16,
+      "name": "Smart LED Desk Lamp",
+      "price": 54.99,
+      "category": "Smart Home",
+      "rating": 4.6
+    },
+    {
+      "id": 17,
+      "name": "External Hard Drive 2TB",
+      "price": 74.50,
+      "category": "Storage",
+      "rating": 4.5
+    },
+    {
+      "id": 18,
+      "name": "Graphics Drawing Tablet",
+      "price": 199.00,
+      "category": "Creativity",
+      "rating": 4.8
+    },
+    {
+      "id": 19,
+      "name": "Compact Power Bank 20000mAh",
+      "price": 49.99,
+      "category": "Charging",
+      "rating": 4.7
+    },
+    {
+      "id": 20,
+      "name": "RGB Headphone Stand",
+      "price": 34.99,
+      "category": "Accessories",
+      "rating": 4.2
+    },
+    {
+      "id": 21,
+      "name": "Portable Monitor 15.6\"",
+      "price": 179.99,
+      "category": "Displays",
+      "rating": 4.6
+    },
+    {
+      "id": 22,
+      "name": "Smart Security Camera",
+      "price": 59.99,
+      "category": "Smart Home",
+      "rating": 4.5
+    },
+    {
+      "id": 23,
+      "name": "Mechanical Numeric Keypad",
+      "price": 34.99,
+      "category": "Accessories",
+      "rating": 4.3
+    },
+    {
+      "id": 24,
+      "name": "USB-C Condenser Microphone",
+      "price": 89.99,
+      "category": "Audio",
+      "rating": 4.8
+    },
+    {
+      "id": 25,
+      "name": "Smart Wi-Fi Plug (2-Pack)",
+      "price": 24.99,
+      "category": "Smart Home",
+      "rating": 4.4
+    },
+    {
+      "id": 26,
+      "name": "Adjustable Aluminum Laptop Stand",
+      "price": 39.99,
+      "category": "Accessories",
+      "rating": 4.7
+    },
+    {
+      "id": 27,
+      "name": "Bluetooth Wireless Game Controller",
+      "price": 49.99,
+      "category": "Gaming",
+      "rating": 4.5
+    },
+    {
+      "id": 28,
+      "name": "Mini Drone with HD Camera",
+      "price": 129.99,
+      "category": "Drones",
+      "rating": 4.2
+    },
+    {
+      "id": 29,
+      "name": "Smart RGB LED Light Strip",
+      "price": 29.99,
+      "category": "Smart Home",
+      "rating": 4.6
+    },
+    {
+      "id": 30,
+      "name": "Fast GaN Wall Charger 65W",
+      "price": 45.00,
+      "category": "Charging",
+      "rating": 4.9
+    }
+  ]
+}
