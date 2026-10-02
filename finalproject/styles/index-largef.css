@@ -1,45 +1,4 @@
 @media (min-width: 661px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 15px;
-    
-  }
-  nav {
-    display: block;
-  }
-  
-  .nav-links li{
-    transition: transform 0.3s ease; 
-}
-
-.nav-links li:hover{
-  transform: translateY(-1.5px);
-}
-
-  #menu-toggle {
-    display: none;
-  }
-
-   .nav-links{
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .three{
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        padding: 40px;
-    }
-
-    .active{
-    border-radius: 10px;
-    }
 /*index style1*/
     
 
