@@ -205,7 +205,7 @@ h5{
      left: 50%;
     transform: translate(-50%);
     text-align: center;
-    width: 609px;
+    width: 100%;
     font-size: 30px;
     background-color: rgba(0, 0, 0, 0.868);
     padding-top: 5px;
@@ -214,9 +214,9 @@ h5{
 }
 #shoper{
     position: absolute;
-    top: 270px;
-    left: 70%;
-    transform: translate(-70%);
+    top: 80%;
+    left: 90%;
+    transform: translate(-90%);
     text-decoration: none;
     background-color: #7a7aeae7;
     padding: 12px;
