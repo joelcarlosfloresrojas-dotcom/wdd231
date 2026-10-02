@@ -86,7 +86,7 @@
       "price": 29.99,
       "category": "Charging",
       "rating": 4.1,
-      "image": "https://images.unsplash.com/photo-1586816879360-004f5b0c51e3?auto=format&fit=crop&w=600&q=80"
+      "image": "https://images.unsplash.com/photo-1615526675159-e248c3021d3f?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 12,
@@ -134,7 +134,7 @@
       "price": 74.50,
       "category": "Storage",
       "rating": 4.5,
-      "image": "https://images.unsplash.com/photo-1531492736225-b286c4f828a2?auto=format&fit=crop&w=600&q=80"
+      "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 18,
@@ -150,7 +150,7 @@
       "price": 49.99,
       "category": "Charging",
       "rating": 4.7,
-      "image": "https://images.unsplash.com/photo-1609592424154-bb6e1a6399a9?auto=format&fit=crop&w=600&q=80"
+      "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 20,
@@ -174,7 +174,7 @@
       "price": 59.99,
       "category": "Smart Home",
       "rating": 4.5,
-      "image": "https://images.unsplash.com/photo-1557324232-b8917d7c3dcb?auto=format&fit=crop&w=600&q=80"
+      "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 23,
