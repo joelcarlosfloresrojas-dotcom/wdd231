@@ -5,210 +5,240 @@
       "name": "Wireless Noise-Canceling Headphones",
       "price": 199.99,
       "category": "Audio",
-      "rating": 4.8
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 2,
       "name": "Ergonomic Mechanical Keyboard",
       "price": 89.99,
       "category": "Accessories",
-      "rating": 4.6
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 3,
       "name": "Ultra-Wide Gaming Monitor 34\"",
       "price": 449.00,
       "category": "Displays",
-      "rating": 4.9
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 4,
       "name": "RGB Wireless Gaming Mouse",
       "price": 59.99,
       "category": "Accessories",
-      "rating": 4.5
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 5,
       "name": "Smart Fitness Watch",
       "price": 129.50,
       "category": "Wearables",
-      "rating": 4.3
+      "rating": 4.3,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 6,
       "name": "Portable 1TB NVMe SSD",
       "price": 109.99,
       "category": "Storage",
-      "rating": 4.7
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 7,
       "name": "4K Action Camera",
       "price": 249.99,
       "category": "Cameras",
-      "rating": 4.4
+      "rating": 4.4,
+      "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 8,
       "name": "Bluetooth Smart Speaker",
       "price": 79.99,
       "category": "Audio",
-      "rating": 4.2
+      "rating": 4.2,
+      "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 9,
       "name": "USB-C Multi-Port Hub",
       "price": 39.99,
       "category": "Accessories",
-      "rating": 4.6
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 10,
       "name": "Desktop LED Monitor Light Bar",
       "price": 45.00,
       "category": "Accessories",
-      "rating": 4.8
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 11,
       "name": "Wireless Charging Pad",
       "price": 29.99,
       "category": "Charging",
-      "rating": 4.1
+      "rating": 4.1,
+      "image": "https://images.unsplash.com/photo-1586816879360-004f5b0c51e3?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 12,
       "name": "True Wireless Earbuds",
       "price": 89.99,
       "category": "Audio",
-      "rating": 4.5
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 13,
       "name": "Wi-Fi 6 Smart Router",
       "price": 159.99,
       "category": "Networking",
-      "rating": 4.7
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 14,
       "name": "Vertical Ergonomic Mouse",
       "price": 49.99,
       "category": "Accessories",
-      "rating": 4.4
+      "rating": 4.4,
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 15,
       "name": "1080p Streaming Webcam",
       "price": 69.99,
       "category": "Cameras",
-      "rating": 4.3
+      "rating": 4.3,
+      "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 16,
       "name": "Smart LED Desk Lamp",
       "price": 54.99,
       "category": "Smart Home",
-      "rating": 4.6
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 17,
       "name": "External Hard Drive 2TB",
       "price": 74.50,
       "category": "Storage",
-      "rating": 4.5
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1531492736225-b286c4f828a2?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 18,
       "name": "Graphics Drawing Tablet",
       "price": 199.00,
       "category": "Creativity",
-      "rating": 4.8
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 19,
       "name": "Compact Power Bank 20000mAh",
       "price": 49.99,
       "category": "Charging",
-      "rating": 4.7
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1609592424154-bb6e1a6399a9?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 20,
       "name": "RGB Headphone Stand",
       "price": 34.99,
       "category": "Accessories",
-      "rating": 4.2
+      "rating": 4.2,
+      "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 21,
       "name": "Portable Monitor 15.6\"",
       "price": 179.99,
       "category": "Displays",
-      "rating": 4.6
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 22,
       "name": "Smart Security Camera",
       "price": 59.99,
       "category": "Smart Home",
-      "rating": 4.5
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1557324232-b8917d7c3dcb?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 23,
       "name": "Mechanical Numeric Keypad",
       "price": 34.99,
       "category": "Accessories",
-      "rating": 4.3
+      "rating": 4.3,
+      "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 24,
       "name": "USB-C Condenser Microphone",
       "price": 89.99,
       "category": "Audio",
-      "rating": 4.8
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 25,
       "name": "Smart Wi-Fi Plug (2-Pack)",
       "price": 24.99,
       "category": "Smart Home",
-      "rating": 4.4
+      "rating": 4.4,
+      "image": "https://images.unsplash.com/photo-1558089687-f282ffcbc126?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 26,
       "name": "Adjustable Aluminum Laptop Stand",
       "price": 39.99,
       "category": "Accessories",
-      "rating": 4.7
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1527443154391-507e9dc6c5cc?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 27,
       "name": "Bluetooth Wireless Game Controller",
       "price": 49.99,
       "category": "Gaming",
-      "rating": 4.5
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 28,
       "name": "Mini Drone with HD Camera",
       "price": 129.99,
       "category": "Drones",
-      "rating": 4.2
+      "rating": 4.2,
+      "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 29,
       "name": "Smart RGB LED Light Strip",
       "price": 29.99,
       "category": "Smart Home",
-      "rating": 4.6
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80"
     },
     {
       "id": 30,
       "name": "Fast GaN Wall Charger 65W",
       "price": 45.00,
       "category": "Charging",
-      "rating": 4.9
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=600&q=80"
     }
   ]
 }
