@@ -32,5 +32,51 @@
     
 
 }
+
+#shoper{
+    transition: background-color 0.5s ease;
+   
+}
+#shoper:hover{
+     color: #7a7aeae7;
+     background-color:#2f0876;
+     
+     
+}
+
+img[alt="change in tech"] 
+  {
+    transition: transform 0.3s ease; 
+} 
+
+img[alt="change in tech"]:hover{
+    transform: translateY(-10px);
+}
+
+#miracle1{
+    transition: transform 0.3s ease; 
+}
+
+#miracle1:hover{
+    transform: translateY(-10px);
+}
+
+#quote{
+
+    transition: transform 0.3s ease; 
+}
+
+
+#quote:hover {
+    transform: translateY(-10px);
+}
+
+.feature-box {
+    transition: transform 0.3s ease; 
+}
+
+.feature-box:hover{
+    transform: translateY(-10px);
+}
 /*index style2*/
 }

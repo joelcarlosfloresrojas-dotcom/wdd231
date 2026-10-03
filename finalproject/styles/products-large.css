@@ -6,4 +6,48 @@
         gap:20px;
         padding-top:40px;
     }
+
+    #awa{
+   
+    transition: transform 0.5s ease;
+    
+}
+
+#awa:hover{
+    transform: translateY(-3px);
+}
+
+.ewe{
+ 
+    transition: transform 0.5s ease;
+}
+
+#ewe:hover{
+    transform: translateY(-3px);
+}
+
+#travel{
+  
+  
+    cursor: pointer;
+}
+
+.product-card {
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.remove-btn {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.remove-btn:hover {
+    background-color: #2563eb;
+}
 }

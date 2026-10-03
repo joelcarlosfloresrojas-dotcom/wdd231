@@ -77,14 +77,6 @@ h5{
     font-size: 20px;
     width: 80px;
     text-align: center;
-    transition: background-color 0.5s ease;
-   
-}
-#shoper:hover{
-     color: #7a7aeae7;
-     background-color:#2f0876;
-     
-     
 }
 
 
@@ -138,17 +130,9 @@ h5{
 #quote{
     grid-area: q;
     border-radius: 10px;
-    transition: transform 0.3s ease; 
 }
 
-img[alt="change in tech"] 
-  {
-    transition: transform 0.3s ease; 
-} 
 
-img[alt="change in tech"]:hover{
-    transform: translateY(-10px);
-}
 
 .miracle{
     width: 70%;
@@ -168,18 +152,9 @@ img[alt="change in tech"]:hover{
     margin: 0 auto;
 }
 
-#miracle1{
-    transition: transform 0.3s ease; 
-}
-
-#miracle1:hover{
-    transform: translateY(-10px);
-}
 
 
-#quote:hover {
-    transform: translateY(-10px);
-}
+
 
 .quoter{
     border-radius: 10px;
@@ -216,12 +191,8 @@ img[alt="change in tech"]:hover{
     border: 1px solid #cce0ff;
     width: 90%;
     height: auto;
-    transition: transform 0.3s ease; 
 }
 
-.feature-box:hover{
-    transform: translateY(-10px);
-}
 .boxes{
     display: flex;
     flex-direction: column;
