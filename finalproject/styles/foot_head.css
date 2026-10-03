@@ -26,9 +26,14 @@ header,footer{
     background-color: var(--primary-color);
 
 }
+.onemore{
+    display: flex;
+    flex-direction: column;
+}
 
 footer{
     margin-top: 10px;
+    padding-top: 30px;
 }
 
 .header{
