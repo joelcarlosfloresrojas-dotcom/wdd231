@@ -1,6 +1,4 @@
-*{
-    
-}
+
 .width{
     max-width: 840px;
     margin: 0 auto;
@@ -179,6 +177,12 @@ dialog:modal {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
+}
+
+dialog::backdrop {
+
+    background-color: rgba(0, 0, 0, 0.7); 
 }
 
 dialog button{

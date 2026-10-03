@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - TechRed</title>
+    <meta name="author" content="Joel Flores">
+    <meta name="description" content="TechRed, your one-stop shop for the latest technology and gadgets.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="images/favicon_1.ico" rel="icon" type="image/x-icon">
+    <meta property="og:title" content="TechRed Home Page">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="TechRed, your one-stop shop for the latest technology and gadgets.">
+    <meta property="og:image" content="https://joelcarlosfloresrojas-dotcom.github.io/wdd231/chamber/images/hero_image.jpg" >
+    <meta property="og:url" content="https://joelcarlosfloresrojas-dotcom.github.io/wdd231/finalproject/index.html">
+   <link rel="stylesheet" href="styles/foot_head.css">
+   <link rel="stylesheet" href="styles/contact.css">
+   <link rel="stylesheet" href="styles/contact-large.css">
+    <script src="scripts/modules-c.mjs" type="module"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+        <div class="logo-container">
+        <img src="images/gem.svg" alt="TechRed Logo" class="logo" width="50" height="50">
+        <h1><strong>Tech</strong><strong id="redder">Red</strong></p></h1>
+        </div>
+        <button id="menu-toggle" aria-label="Toggle navigation menu">
+        </div>
+        
+        <nav>
+            <div class="nav-links">
+                <li ><a    href="index.html">Home</a></li>
+                <li ><a  href="shop.html">Shop</a></li>
+                <li ><a  href="products.html">Products</a></li>
+                <li id="home"><a id="home1" href="contact.html">Contact Us</a></li>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="wither">
+        <div class="fixer">
+        
+        
+        </div>
+        <div class="media2">
+        <form id="Form"class="nada" method="get" action="thankyou.html"> 
+            <h1>Join Us!</h1>
+            <fieldset>
+            <legend class="legend">General Information</legend>
+            <div class="column">
+            <div class="label">
+            <label for="name">First Name*</label>
+            <input name="name" id="name" type="text" title="First Name" autocomplete="given-name" required>
+            </div>
+            <div class="label">
+            <label for="lname">Last Name*</label>
+            <input name="lname" id="lname" type="text" title="Last Name" autocomplete="family-name" required>
+            </div>
+            <div class="label">
+            <p id="error"></p>
+            </div>
+            <div class="label">
+            <label for="email">Email*</label>
+            <input name="email" id="email" type="email" title="email" placeholder="12345@gmail.com" autocomplete="email" required>
+            </div>
+            <div class="label">
+            <label for="phone">Phone Number*</label>
+            <input name="phone" type="tel" id="phone" title="phone" autocomplete="tel" required>
+            </div>
+            </div>
+            </fieldset>
+
+            <fieldset>
+            <legend class="legend">Delivery Information</legend>
+            <div class="label">
+            <label for="delivery">Delivery Method*</label>
+            <select name="delivery" id="delivery" required>
+                <option value="" disabled selected>Select a Delivery Method</option>
+                <option value="pickup">Pick Up in Store (Free)</option>
+                <option value="standard">Standard Delivery to your house (3-5 days)</option>
+                <option value="express">Express Delivery (Next Day)</option>
+            </select>
+            <div id="newer">
+
+            </div>
+
+            </div> 
+            </fieldset>
+
+            <fieldset>
+                <legend class="legend">Additional Information</legend>
+                <div class="column">
+                    
+                
+                    <div class="label">
+                        <label for="referral">How did you hear about us? (Optional)</label>
+                        <select name="referral" id="referral">
+                            <option value="" disabled selected>Choose an option</option>
+                            <option value="social">Social Media (Instagram/TikTok)</option>
+                            <option value="friend">Friend or Family</option>
+                            <option value="search">Google Search</option>
+                            <option value="other">Other</option>
+                        </select>
+                        
+                    </div>
+
+                    
+                    <div class="label">
+                        <label for="notes">Order Notes & Delivery Instructions</label>
+                        <textarea id="notes" name="notes" placeholder="E.g., Please leave the package behind the gate..." cols="30" rows="5"></textarea>
+                    </div>
+                    
+                </div>
+            </fieldset>
+            
+            
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+            
+            <input id="former" type="submit" value="Get in Contact!">
+        </form>
+        <div class="showing">
+        <h2> Your Items<span id="balance"></span></h2>
+        <section id="run" class="epic">
+            
+
+        </section>
+        </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="three">
+            <div class="foot1">
+                <p id="hola"><strong>TechRed</strong></p>
+                    <li>Av. Arequipa 1234, San Isidro</li>
+                    <li>Lima, Perú 15046</li>
+                    <li>contacto@joelflores.dev</li>
+                    <li>(51) 987-654-321</li>
+            </div>
+             <div id="icon" class="social-icons">
+                <a href="https://www.linkedin.com/in/joel-carlos-flores-rojas/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" width="40" height="40"></a>
+                <a href="https://github.com/joelcarlosfloresrojas-dotcom" target="_blank"><img src="images/github.svg" alt="GitHub" width="40" height="40"></a>
+                <a href="https://www.facebook.com/joel.floresrojas" target="_blank"><img src="images/facebook.svg" alt="Facebook" width="40" height="40"></a>
+            </div>
+            <div class="foot2">
+    
+                    <li><strong>WDD231 Class Project</strong></li>
+                    <li>Joel Flores</li>        
+                <p>&copy; <span id="currentyear"></span> TechRed</p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -145,6 +145,7 @@ export async function catalog1() {
                     <button  class="add-to-cart-btn" data-id="${product.id}">Add to Cart</button>
                 </div>  
                 `;
+                box.appendChild(div1);
                 const boton = div1.querySelector('.add-to-cart-btn');
             
                 boton.addEventListener('click', () => {
@@ -154,7 +155,7 @@ export async function catalog1() {
                     dialog.showModal();
 
                 });
-                box.appendChild(div1);
+                
                 
 
             });
