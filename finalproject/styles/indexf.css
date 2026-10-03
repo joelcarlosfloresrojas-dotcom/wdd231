@@ -97,7 +97,7 @@ h3 {
 @media(max-width: 610px){
 
     .relative h1{
-        width: 290px;
+        width: 280px;
         font-size: 20px;
     }
     .relative p{
@@ -119,7 +119,7 @@ h3 {
 
     
     .hero-image {
-        width: 290px; 
+        width: 280px; 
         height: auto;
     
 }
