@@ -1,7 +1,16 @@
 *{
-    color: black;
-    margin: 0px;
+     margin: 0px;
     padding: 0px;
+}
+
+main *{
+    
+   
+    color: black;
+}
+
+main{
+    margin-top: 10px;
 }
 .wither{
     max-width: 840px;
