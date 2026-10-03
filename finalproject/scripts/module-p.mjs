@@ -17,6 +17,7 @@ products(data);
 const btno =document.getElementById('travel');
 const crazy =document.getElementById('loco');
 const close=document.getElementById('closeModal');
+function stop(){
 btno.addEventListener('click',()=>{
     crazy.showModal();
 
@@ -25,9 +26,11 @@ close.addEventListener('click',()=>{
     crazy.close();
 
 });
+}
+stop();
 const dont =document.querySelector('section');
 const awa =document.getElementById('ewe');
-const btn1 =document.getElementsByClassName('.remove-btn');
+
 
  if(dont.children.length===0){
         awa.style.display='none';
@@ -36,14 +39,6 @@ const btn1 =document.getElementsByClassName('.remove-btn');
         awa.style.display='block';
     }
 
-btn1.addEventListener('click',()=>{
-    if(dont.children.length===1){
-        awa.style.display='none';
-    }
-    else{
-        awa.style.display='block';
-    }
-});
 
 
 
