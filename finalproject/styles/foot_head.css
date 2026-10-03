@@ -79,7 +79,11 @@ li{
     transition: 0.35s;
 }
 
-
+.active {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    transition: 0.35s;
+}
 .logo-container{
     display: flex;
     gap: 20px;
@@ -153,11 +157,7 @@ a, button {
     padding: 10px;
 }
 
-.active {
-    background-color: var(--accent-color);
-    color: var(--secondary-color);
-    transition: 0.35s;
-}
+
 
 #redder{
     color:red;
