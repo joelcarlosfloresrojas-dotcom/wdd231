@@ -248,6 +248,12 @@ a, button {
     .active{
     border-radius: 10px;
     }
+    .social-icons{
+       
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 35px;
+    }
 }
 
 
