@@ -1,5 +1,5 @@
 import {buttonClick,initHeader} from './header.mjs';
-import { catalog } from './shop.mjs';
+import { catalog,prices,changer,catalog1 } from './shop.mjs';
 document.getElementById("currentyear").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
 
@@ -12,4 +12,10 @@ initHeader(head);
 
 
 const box =document.getElementById('info');
-catalog(box);
+changer(box);
+const selector =document.getElementById('filter');
+document.addEventListener('DOMContentLoaded',()=>{
+    catalog(box);
+    prices(selector,box);
+
+});
