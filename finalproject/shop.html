@@ -25,15 +25,15 @@
         <div class="header">
         <div class="logo-container">
         <img src="images/gem.svg" alt="TechRed Logo" class="logo" width="50" height="50">
-        <h1><strong>Tech</strong><strong id="redder">Red</strong></h1>
+        <p id="h1"><strong>Tech</strong><strong id="redder">Red</strong></p>
         </div>
         <button id="menu-toggle" aria-label="Toggle navigation menu"></button>
         </div>
         
         <nav>
             <menu class="nav-links">
-                <li ><a    href="index.html">Home</a></li>
-                <li id="home"><a id="home1" href="shop.html">Shop</a></li>
+                <li id="home"><a id="home1"   href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li id="hi"><a href="contact.html">Contact Us</a></li>
             </menu>
@@ -44,7 +44,7 @@
         <div class="width">
        <h2>Shop Catalog</h2>
        <label for="filter">Filter by price:</label>
-       <select id="filter" name=filter">
+       <select id="filter" name="filter">
             <option value="" id="placeholder" disabled selected>Select a range</option>
             <option value="all">All</option>
             <option value="50">Under $50</option>
@@ -74,27 +74,32 @@
        </dialog>
 
     </main>
-    <footer>
+<footer>
         <div class="three">
+            <div class="onemore">
+            <p id="hola"><strong>TechRed</strong></p>
             <menu class="foot1">
-                <p id="hola"><strong>TechRed</strong></p>
+                
                     <li>Av. Arequipa 1234, San Isidro</li>
                     <li>Lima, Perú 15046</li>
                     <li>contacto@joelflores.dev</li>
                     <li>(51) 987-654-321</li>
             </menu>
+            </div>
              <div id="icon" class="social-icons">
                 <a href="https://www.linkedin.com/in/joel-carlos-flores-rojas/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" width="40" height="40"></a>
                 <a href="https://github.com/joelcarlosfloresrojas-dotcom" target="_blank"><img src="images/github.svg" alt="GitHub" width="40" height="40"></a>
                 <a href="https://www.facebook.com/joel.floresrojas" target="_blank"><img src="images/facebook.svg" alt="Facebook" width="40" height="40"></a>
             </div>
+            <div class="onemore">
             <menu class="foot2">
-    
                     <li><strong>WDD231 Class Project</strong></li>
                     <li>Joel Flores</li>        
-                <p>&copy; <span id="currentyear"></span> TechRed</p>
-                <p id="lastModified"></p>
+                
             </menu>
+            <p>&copy; <span id="currentyear"></span> TechRed</p>
+            <p id="lastModified"></p>
+            </div>
         </div>
     </footer>
     
