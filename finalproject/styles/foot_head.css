@@ -45,6 +45,10 @@ footer{
     
 }
 
+#h1{
+    font-size: 35px;
+}
+
 li a{
     text-decoration: none;
      border-radius: 10px;
