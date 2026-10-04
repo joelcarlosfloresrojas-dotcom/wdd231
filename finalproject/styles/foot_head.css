@@ -89,7 +89,7 @@ li{
 }
 
 .active {
-    background-color: var(--accent-color);
+    background-color: rgb(140, 23, 8);
     color: var(--secondary-color);
     transition: 0.35s;
 }
@@ -231,7 +231,7 @@ a, button {
   }
 
   .nav-links a:hover{
-    background-color: var(--accent-color);
+    background-color: rgb(140, 23, 8);
     color: var(--secondary-color);
     transition: 0.35s;
 }
