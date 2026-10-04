@@ -132,7 +132,7 @@ export async function catalog1() {
                 div1.innerHTML="";
                 div1.classList.add('product-card');
                 div1.innerHTML=`
-                <img src="${product.image}" alt="${product.name}" class="product-img">
+                <img src="${product.image}" alt="${product.name}" class="product-img" loading="lazy">
                 <div class="product-content">
                     <span class="product-category">${product.category}</span>
                     <h3 class="product-title">${product.name}</h3>
