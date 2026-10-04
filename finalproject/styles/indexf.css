@@ -1,5 +1,7 @@
 /*index style1*/
-
+*{
+    color: #F9F6F0;;
+}
 h4,#h333{
     margin-top: 20px;
     text-align: center;

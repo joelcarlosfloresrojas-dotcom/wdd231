@@ -18,7 +18,7 @@ export function products4(data,total){
           
     });
 
-   yours5.textContent=`($${total})`;
+   yours5.textContent=`($${total.toFixed(2)})`;
 }
 export function delivery(){
 const delivery =document.getElementById('delivery');

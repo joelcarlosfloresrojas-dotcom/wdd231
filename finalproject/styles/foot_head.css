@@ -2,7 +2,16 @@
    margin: 0;
    font-family: "Open Sans", sans-serif;
    padding: 0;
-   color: var(--secondary-color);
+   
+}
+
+header *{
+    color: var(--secondary-color);
+
+}
+
+footer *{
+    color: var(--secondary-color);
 }
 
 #redder {
