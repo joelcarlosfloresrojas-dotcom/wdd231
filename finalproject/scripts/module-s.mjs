@@ -1,5 +1,5 @@
 import {buttonClick,initHeader} from './header.mjs';
-import { catalog,prices,changer,catalog1 } from './shop.mjs';
+import { catalog,prices,changer} from './shop.mjs';
 document.getElementById("currentyear").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
 
