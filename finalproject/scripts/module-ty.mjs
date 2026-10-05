@@ -1,4 +1,4 @@
-import {buttonClick,initHeader} from './header.mjs';
+import {buttonClick} from './header.mjs';
 import { url } from './parameters.mjs';
 document.getElementById("currentyear").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
