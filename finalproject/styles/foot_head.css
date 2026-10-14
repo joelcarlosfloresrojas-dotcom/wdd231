@@ -4,7 +4,14 @@
    padding: 0;
    
 }
-
+.logo-container img{
+  fill: transparent;
+  stroke: #00ffcc;
+  stroke-width: 5;
+  filter: drop-shadow(0px 0px 8px rgb(255, 27, 27));
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
 header *{
     color: var(--secondary-color);
 
@@ -174,14 +181,7 @@ a, button {
 #redder{
     color:red;
 }
-.logo-container img{
-  fill: transparent;
-  stroke: #00ffcc;
-  stroke-width: 5;
-  filter: drop-shadow(0px 0px 8px rgb(255, 27, 27));
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-}
+
 
     .nav-links li{
         border:1px solid var(--secondary-color);
